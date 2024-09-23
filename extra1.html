@@ -4,18 +4,20 @@
     if ((numX <= 2) || (numX >= 90)) {
         alert(`Número inválido`);
 
-    } else{ 
-       if (numX < 8) {
-        resultado = numX * 2;
+    } else {
+        if (numX < 8) {
+            resultado = numX * 2;
+            document.write(`Seu número é ${numX}. <br> O resultado do seu número, multiplicado por 2, é: ${resultado}`);
 
-    } else if (numX < 15) {
-        resultado = numX * numX;
+        } else if (numX < 15) {
+            resultado = numX * numX;
+            document.write(`Seu número é ${numX}. <br> O resultado do seu número, elevado a 2, é: ${resultado}`);
 
-    } else if (numX < 90) {
-        resultado = numX * 3;
-    }
-    alert(`Resultado ${resultado} `); 
+        } else if (numX < 90) {
+            resultado = numX * 3;
+            document.write(`Seu número é ${numX}. <br> O resultado do seu número, multiplicado por 3, é: ${resultado}`);
 
+        }
     }
 
 </script>
